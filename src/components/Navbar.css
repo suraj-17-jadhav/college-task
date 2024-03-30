@@ -1,0 +1,46 @@
+img{
+    width: 8%;
+    object-fit: contain;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+ul{
+    display: flex;
+    align-items: baseline;
+}
+li{
+    list-style: none;
+    padding: 1px 15px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+    cursor: pointer;
+}
+.primaryBtn{
+    cursor: pointer;
+    font-weight: bold;
+    padding: 13px 25px;
+    font-size: 0.8rem;
+    border: none;
+    color: white;
+    background: #db183c;
+    border-radius: 15px;
+    margin-left: 20px;
+    transition: all 0.25s ease;
+}
+.primaryBtn:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px -10px rgba(219,14 ,44,0.6);
+}
+
